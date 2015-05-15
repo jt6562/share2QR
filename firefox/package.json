@@ -1,9 +1,9 @@
 {
-  "name": "firefox",
-  "title": "firefox",
+  "name": "share2qr",
+  "title": "share2QR",
   "id": "jid1-rJYEz0VDq9msUw",
-  "description": "a basic add-on",
-  "author": "",
+  "description": "Wrap a web url, and display QRcode with new url",
+  "author": "jt6562@163.com",
   "license": "MPL 2.0",
   "version": "0.1"
 }

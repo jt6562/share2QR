@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="jquery.qrcode.min.js"></script>
-</head>
-<body>
-    <div id="qrcode"></div>
     <script type="text/javascript">
         function gen_qrcode(qr_info) {
-            //$("#qrcode").qrcode({width:180,height:180,text:qr_text});
             $("#qrcode").qrcode(qr_info);
         }
-        //document.addEventListener('qrcode', function(text) {
         addon.port.on('qrcode', function(qr_info) {
                 gen_qrcode(qr_info);
             });
     </script>
+</head>
+<body>
+    <div id="qrcode"></div>
 </body>
 </html>
