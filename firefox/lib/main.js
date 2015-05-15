@@ -26,4 +26,5 @@ function handleClick(state) {
 
     qr_info = {width:180,height:180,text:wrapweb_url};
     panel.port.emit('qrcode', qr_info);
+    console.log(wrapweb_url)
 }
