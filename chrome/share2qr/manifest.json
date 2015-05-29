@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+
+    "name": "share2qr",
+    "version": "0.2",
+    "description": "Wrap a web url, and display QRcode with new url",
+
+    "permissions":["tabs"],
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "qrcode.html"
+    }
+}

@@ -5,5 +5,5 @@
   "description": "Wrap a web url, and display QRcode with new url",
   "author": "jt6562@163.com",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "0.2"
 }
